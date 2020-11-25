@@ -41,6 +41,6 @@ public class TestStudent {
         double actual = student.getTotalStudyTime();
 
         //Then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual, .000001);
     }
 }
