@@ -116,8 +116,8 @@
 * Create a `Students` class.
 	* The class should be an _unextendable_ subclass of the `People` class.
 	* The class should _statically instantiate_ a `final` field named `INSTANCE` of type `Students`.
-	* The class should define a _private nullary constructor_ which populates the `INSTANCE` field with respective `Student` representations of your colleagues.
-		* Each student should have a _relatively_ unique `id` field.
+````	* The class should define a _private nullary constructor_ which populates the `INSTANCE` field with respective `Student` representations of your colleagues.
+		* Each student should have a _relatively_ unique `id` field.````
 	* The class should define a `getInstance` method which returns the `INSTANCE` field.
 	
 	
